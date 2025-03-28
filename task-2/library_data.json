@@ -1,0 +1,30 @@
+{
+    "Hermann Hesse": [
+        {
+            "title": "Steppenwolf",
+            "author": "Hermann Hesse",
+            "year": 1927
+        }
+    ],
+    "Friedrich Nietzsche": [
+        {
+            "title": "Thus Spoke Zarathustra",
+            "author": "Friedrich Nietzsche",
+            "year": 1883
+        }
+    ],
+    "Kahlil Gibran": [
+        {
+            "title": "The Prophet",
+            "author": "Kahlil Gibran",
+            "year": 1923
+        }
+    ],
+    "Rick Riordan": [
+        {
+            "title": "Percy Jackson & the Olympians: The Lightning Thief",
+            "author": "Rick Riordan",
+            "year": 2005
+        }
+    ]
+}
