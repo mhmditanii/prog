@@ -3,29 +3,30 @@
         "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
         "author": "Robert C. Martin",
         "year": 2008,
-        "status": "available"
+        "status": "Deleted"
     },
     {
         "title": "The Pragmatic Programmer: Your Journey to Mastery",
         "author": "Andrew Hunt, David Thomas",
         "year": 1999,
-        "status": "available"
+        "status": "Deleted"
     },
     {
         "title": "Introduction to Algorithms",
         "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
         "year": 1990,
-        "status": "available"
+        "status": "Deleted"
     },
     {
         "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
         "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
         "year": 1994,
-        "status": "available"
+        "status": "Deleted"
     },
     {
-        "title": "hello ",
-        "author": "test",
-        "year": "1999"
+        "title": "jdfgsdj",
+        "author": "sdfuh",
+        "year": "sdf",
+        "status": "Available"
     }
 ]

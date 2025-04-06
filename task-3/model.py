@@ -14,7 +14,7 @@ def load_data():
 
 def open_file(access_type):
     try:
-        file_path = find("library_data.json", os.getcwd())
+        file_path = find("lib_default.json", os.getcwd())
         if file_path is None:
             raise FileNotFoundError("File not found!")
         current_file = open(file_path, access_type)

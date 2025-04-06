@@ -1,6 +1,6 @@
 import controller
-import view
+import view1
 import model
 
-app = view.App()
+app = view1.App()
 app.mainloop()
