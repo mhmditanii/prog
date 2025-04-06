@@ -1,3 +1,7 @@
+#asser.hussein@stud.th-deg.de
+#robin.christ@stud.th-deg.de
+#mohammad.itani@stud.th-deg.de
+
 import model
 from tkinter import messagebox
 from collections import Counter

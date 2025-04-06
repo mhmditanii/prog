@@ -1,3 +1,7 @@
+#asser.hussein@stud.th-deg.de
+#robin.christ@stud.th-deg.de
+#mohammad.itani@stud.th-deg.de
+
 import os
 import json
 from tkinter import filedialog
