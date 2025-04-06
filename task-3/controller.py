@@ -22,6 +22,8 @@ def list_book_titles():
 
 def add_book(book_details):
     library_data = model.load_data()
+    if not library_data:
+        library_data = []
     for book in library_data:
         if book_details[0] == book["title"]:
             print("Book is already found!")
@@ -34,7 +36,6 @@ def add_book(book_details):
     }
     library_data.append(entry)
     model.save_file(library_data)
-    print("Book added successfully")
 
 def book_search(book_name):
     library_data = model.load_data()

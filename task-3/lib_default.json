@@ -21,12 +21,18 @@
         "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
         "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
         "year": 1994,
-        "status": "Deleted"
+        "status": "Missing"
     },
     {
         "title": "jdfgsdj",
         "author": "sdfuh",
         "year": "sdf",
+        "status": "Lent Out"
+    },
+    {
+        "title": "sds",
+        "author": "sd",
+        "year": "sd",
         "status": "Available"
     }
 ]
