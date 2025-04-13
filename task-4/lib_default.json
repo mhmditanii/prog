@@ -1,0 +1,902 @@
+[
+    {
+        "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "author": "Robert C. Martin",
+        "year": 2008,
+        "status": "Missing"
+    },
+    {
+        "title": "The Pragmatic Programmer: Your Journey to Mastery",
+        "author": "Andrew Hunt, David Thomas",
+        "year": 1999,
+        "status": "Deleted"
+    },
+    {
+        "title": "Introduction to Algorithms",
+        "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+        "year": 1990,
+        "status": "Deleted"
+    },
+    {
+        "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+        "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+        "year": 1994,
+        "status": "Missing"
+    },
+    {
+        "title": "Code Complete",
+        "author": "Steve McConnell",
+        "year": 2020,
+        "status": "Available"
+    },
+    {
+        "title": "Algorithms Unlocked",
+        "author": "Thomas H. Cormen",
+        "year": 1995,
+        "status": "Lent Out"
+    },
+    {
+        "title": "The Mythical Man-Month",
+        "author": "Frederick P. Brooks Jr.",
+        "year": 1991,
+        "status": "Available"
+    },
+    {
+        "title": "Structure and Interpretation of Computer Programs",
+        "author": "Harold Abelson, Gerald Jay Sussman",
+        "year": 1982,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Computer Networks",
+        "author": "Andrew S. Tanenbaum",
+        "year": 2006,
+        "status": "Missing"
+    },
+    {
+        "title": "Operating System Concepts",
+        "author": "Abraham Silberschatz",
+        "year": 2024,
+        "status": "Missing"
+    },
+    {
+        "title": "You Don't Know JS",
+        "author": "Kyle Simpson",
+        "year": 1999,
+        "status": "Missing"
+    },
+    {
+        "title": "Refactoring",
+        "author": "Martin Fowler",
+        "year": 1991,
+        "status": "Missing"
+    },
+    {
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "year": 1992,
+        "status": "Available"
+    },
+    {
+        "title": "Programming Pearls",
+        "author": "Jon Bentley",
+        "year": 1985,
+        "status": "Lent Out"
+    },
+    {
+        "title": "The C Programming Language",
+        "author": "Brian W. Kernighan, Dennis M. Ritchie",
+        "year": 2000,
+        "status": "Deleted"
+    },
+    {
+        "title": "JavaScript: The Good Parts",
+        "author": "Douglas Crockford",
+        "year": 2012,
+        "status": "Missing"
+    },
+    {
+        "title": "Hands-On Machine Learning",
+        "author": "Aur\u00e9lien G\u00e9ron",
+        "year": 1998,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Learning Python",
+        "author": "Mark Lutz",
+        "year": 1984,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Fluent Python",
+        "author": "Luciano Ramalho",
+        "year": 1984,
+        "status": "Available"
+    },
+    {
+        "title": "Think Python",
+        "author": "Allen B. Downey",
+        "year": 1986,
+        "status": "Available"
+    },
+    {
+        "title": "Eloquent JavaScript",
+        "author": "Marijn Haverbeke",
+        "year": 1997,
+        "status": "Available"
+    },
+    {
+        "title": "Grokking Algorithms",
+        "author": "Aditya Bhargava",
+        "year": 2013,
+        "status": "Available"
+    },
+    {
+        "title": "Programming Rust",
+        "author": "Jim Blandy, Jason Orendorff",
+        "year": 1992,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Linux Pocket Guide",
+        "author": "Daniel J. Barrett",
+        "year": 2021,
+        "status": "Available"
+    },
+    {
+        "title": "Computer Organization and Design",
+        "author": "David A. Patterson, John L. Hennessy",
+        "year": 2002,
+        "status": "Available"
+    },
+    {
+        "title": "Software Engineering",
+        "author": "Ian Sommerville",
+        "year": 1999,
+        "status": "Available"
+    },
+    {
+        "title": "Cracking the Coding Interview",
+        "author": "Gayle Laakmann McDowell",
+        "year": 2007,
+        "status": "Available"
+    },
+    {
+        "title": "Data Structures and Algorithms in Java",
+        "author": "Michael T. Goodrich",
+        "year": 1987,
+        "status": "Available"
+    },
+    {
+        "title": "Spring in Action",
+        "author": "Craig Walls",
+        "year": 2010,
+        "status": "Missing"
+    },
+    {
+        "title": "Pro Git",
+        "author": "Scott Chacon, Ben Straub",
+        "year": 1996,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Artificial Intelligence: A Modern Approach",
+        "author": "Stuart Russell, Peter Norvig",
+        "year": 1982,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Deep Learning",
+        "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+        "year": 2008,
+        "status": "Missing"
+    },
+    {
+        "title": "Python Crash Course",
+        "author": "Eric Matthes",
+        "year": 2024,
+        "status": "Missing"
+    },
+    {
+        "title": "The Art of Computer Programming",
+        "author": "Donald E. Knuth",
+        "year": 1997,
+        "status": "Missing"
+    },
+    {
+        "title": "Code Complete",
+        "author": "Steve McConnell",
+        "year": 1982,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Algorithms Unlocked",
+        "author": "Thomas H. Cormen",
+        "year": 2000,
+        "status": "Available"
+    },
+    {
+        "title": "The Mythical Man-Month",
+        "author": "Frederick P. Brooks Jr.",
+        "year": 2006,
+        "status": "Available"
+    },
+    {
+        "title": "Structure and Interpretation of Computer Programs",
+        "author": "Harold Abelson, Gerald Jay Sussman",
+        "year": 1985,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Computer Networks",
+        "author": "Andrew S. Tanenbaum",
+        "year": 1995,
+        "status": "Missing"
+    },
+    {
+        "title": "Operating System Concepts",
+        "author": "Abraham Silberschatz",
+        "year": 1989,
+        "status": "Missing"
+    },
+    {
+        "title": "You Don't Know JS",
+        "author": "Kyle Simpson",
+        "year": 2020,
+        "status": "Available"
+    },
+    {
+        "title": "Refactoring",
+        "author": "Martin Fowler",
+        "year": 2018,
+        "status": "Missing"
+    },
+    {
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "year": 1982,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Programming Pearls",
+        "author": "Jon Bentley",
+        "year": 2018,
+        "status": "Available"
+    },
+    {
+        "title": "The C Programming Language",
+        "author": "Brian W. Kernighan, Dennis M. Ritchie",
+        "year": 2014,
+        "status": "Missing"
+    },
+    {
+        "title": "JavaScript: The Good Parts",
+        "author": "Douglas Crockford",
+        "year": 2019,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Hands-On Machine Learning",
+        "author": "Aur\u00e9lien G\u00e9ron",
+        "year": 2006,
+        "status": "Missing"
+    },
+    {
+        "title": "Learning Python",
+        "author": "Mark Lutz",
+        "year": 1988,
+        "status": "Available"
+    },
+    {
+        "title": "Fluent Python",
+        "author": "Luciano Ramalho",
+        "year": 2022,
+        "status": "Missing"
+    },
+    {
+        "title": "Think Python",
+        "author": "Allen B. Downey",
+        "year": 2014,
+        "status": "Missing"
+    },
+    {
+        "title": "Eloquent JavaScript",
+        "author": "Marijn Haverbeke",
+        "year": 1993,
+        "status": "Available"
+    },
+    {
+        "title": "Grokking Algorithms",
+        "author": "Aditya Bhargava",
+        "year": 1998,
+        "status": "Available"
+    },
+    {
+        "title": "Programming Rust",
+        "author": "Jim Blandy, Jason Orendorff",
+        "year": 2001,
+        "status": "Available"
+    },
+    {
+        "title": "Linux Pocket Guide",
+        "author": "Daniel J. Barrett",
+        "year": 2016,
+        "status": "Missing"
+    },
+    {
+        "title": "Computer Organization and Design",
+        "author": "David A. Patterson, John L. Hennessy",
+        "year": 2016,
+        "status": "Missing"
+    },
+    {
+        "title": "Software Engineering",
+        "author": "Ian Sommerville",
+        "year": 2015,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Cracking the Coding Interview",
+        "author": "Gayle Laakmann McDowell",
+        "year": 1993,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Data Structures and Algorithms in Java",
+        "author": "Michael T. Goodrich",
+        "year": 2022,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Spring in Action",
+        "author": "Craig Walls",
+        "year": 1991,
+        "status": "Missing"
+    },
+    {
+        "title": "Pro Git",
+        "author": "Scott Chacon, Ben Straub",
+        "year": 2009,
+        "status": "Available"
+    },
+    {
+        "title": "Artificial Intelligence: A Modern Approach",
+        "author": "Stuart Russell, Peter Norvig",
+        "year": 1984,
+        "status": "Missing"
+    },
+    {
+        "title": "Deep Learning",
+        "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+        "year": 2007,
+        "status": "Available"
+    },
+    {
+        "title": "Python Crash Course",
+        "author": "Eric Matthes",
+        "year": 2018,
+        "status": "Missing"
+    },
+    {
+        "title": "The Art of Computer Programming",
+        "author": "Donald E. Knuth",
+        "year": 1996,
+        "status": "Available"
+    },
+    {
+        "title": "Code Complete",
+        "author": "Steve McConnell",
+        "year": 2011,
+        "status": "Available"
+    },
+    {
+        "title": "Algorithms Unlocked",
+        "author": "Thomas H. Cormen",
+        "year": 2008,
+        "status": "Lent Out"
+    },
+    {
+        "title": "The Mythical Man-Month",
+        "author": "Frederick P. Brooks Jr.",
+        "year": 2021,
+        "status": "Available"
+    },
+    {
+        "title": "Structure and Interpretation of Computer Programs",
+        "author": "Harold Abelson, Gerald Jay Sussman",
+        "year": 1996,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Computer Networks",
+        "author": "Andrew S. Tanenbaum",
+        "year": 2023,
+        "status": "Available"
+    },
+    {
+        "title": "Operating System Concepts",
+        "author": "Abraham Silberschatz",
+        "year": 1994,
+        "status": "Missing"
+    },
+    {
+        "title": "You Don't Know JS",
+        "author": "Kyle Simpson",
+        "year": 2000,
+        "status": "Missing"
+    },
+    {
+        "title": "Refactoring",
+        "author": "Martin Fowler",
+        "year": 2011,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "year": 2024,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Programming Pearls",
+        "author": "Jon Bentley",
+        "year": 2010,
+        "status": "Missing"
+    },
+    {
+        "title": "The C Programming Language",
+        "author": "Brian W. Kernighan, Dennis M. Ritchie",
+        "year": 2023,
+        "status": "Missing"
+    },
+    {
+        "title": "JavaScript: The Good Parts",
+        "author": "Douglas Crockford",
+        "year": 2007,
+        "status": "Missing"
+    },
+    {
+        "title": "Hands-On Machine Learning",
+        "author": "Aur\u00e9lien G\u00e9ron",
+        "year": 2018,
+        "status": "Available"
+    },
+    {
+        "title": "Learning Python",
+        "author": "Mark Lutz",
+        "year": 2009,
+        "status": "Missing"
+    },
+    {
+        "title": "Fluent Python",
+        "author": "Luciano Ramalho",
+        "year": 1998,
+        "status": "Available"
+    },
+    {
+        "title": "Think Python",
+        "author": "Allen B. Downey",
+        "year": 2023,
+        "status": "Missing"
+    },
+    {
+        "title": "Eloquent JavaScript",
+        "author": "Marijn Haverbeke",
+        "year": 2019,
+        "status": "Missing"
+    },
+    {
+        "title": "Grokking Algorithms",
+        "author": "Aditya Bhargava",
+        "year": 2016,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Programming Rust",
+        "author": "Jim Blandy, Jason Orendorff",
+        "year": 1981,
+        "status": "Available"
+    },
+    {
+        "title": "Linux Pocket Guide",
+        "author": "Daniel J. Barrett",
+        "year": 2022,
+        "status": "Missing"
+    },
+    {
+        "title": "Computer Organization and Design",
+        "author": "David A. Patterson, John L. Hennessy",
+        "year": 1995,
+        "status": "Missing"
+    },
+    {
+        "title": "Software Engineering",
+        "author": "Ian Sommerville",
+        "year": 1988,
+        "status": "Available"
+    },
+    {
+        "title": "Cracking the Coding Interview",
+        "author": "Gayle Laakmann McDowell",
+        "year": 2013,
+        "status": "Missing"
+    },
+    {
+        "title": "Data Structures and Algorithms in Java",
+        "author": "Michael T. Goodrich",
+        "year": 2014,
+        "status": "Missing"
+    },
+    {
+        "title": "Spring in Action",
+        "author": "Craig Walls",
+        "year": 2002,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Pro Git",
+        "author": "Scott Chacon, Ben Straub",
+        "year": 2017,
+        "status": "Missing"
+    },
+    {
+        "title": "Artificial Intelligence: A Modern Approach",
+        "author": "Stuart Russell, Peter Norvig",
+        "year": 2011,
+        "status": "Missing"
+    },
+    {
+        "title": "Deep Learning",
+        "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+        "year": 2003,
+        "status": "Available"
+    },
+    {
+        "title": "Python Crash Course",
+        "author": "Eric Matthes",
+        "year": 2016,
+        "status": "Lent Out"
+    },
+    {
+        "title": "The Art of Computer Programming",
+        "author": "Donald E. Knuth",
+        "year": 2005,
+        "status": "Missing"
+    },
+    {
+        "title": "Code Complete",
+        "author": "Steve McConnell",
+        "year": 1993,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Algorithms Unlocked",
+        "author": "Thomas H. Cormen",
+        "year": 2017,
+        "status": "Lent Out"
+    },
+    {
+        "title": "The Mythical Man-Month",
+        "author": "Frederick P. Brooks Jr.",
+        "year": 1987,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Structure and Interpretation of Computer Programs",
+        "author": "Harold Abelson, Gerald Jay Sussman",
+        "year": 1984,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Computer Networks",
+        "author": "Andrew S. Tanenbaum",
+        "year": 1980,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Operating System Concepts",
+        "author": "Abraham Silberschatz",
+        "year": 2010,
+        "status": "Lent Out"
+    },
+    {
+        "title": "You Don't Know JS",
+        "author": "Kyle Simpson",
+        "year": 1999,
+        "status": "Available"
+    },
+    {
+        "title": "Refactoring",
+        "author": "Martin Fowler",
+        "year": 1982,
+        "status": "Available"
+    },
+    {
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "year": 2010,
+        "status": "Missing"
+    },
+    {
+        "title": "Programming Pearls",
+        "author": "Jon Bentley",
+        "year": 2006,
+        "status": "Lent Out"
+    },
+    {
+        "title": "The C Programming Language",
+        "author": "Brian W. Kernighan, Dennis M. Ritchie",
+        "year": 1998,
+        "status": "Lent Out"
+    },
+    {
+        "title": "JavaScript: The Good Parts",
+        "author": "Douglas Crockford",
+        "year": 2001,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Hands-On Machine Learning",
+        "author": "Aur\u00e9lien G\u00e9ron",
+        "year": 1997,
+        "status": "Available"
+    },
+    {
+        "title": "Learning Python",
+        "author": "Mark Lutz",
+        "year": 2014,
+        "status": "Missing"
+    },
+    {
+        "title": "Fluent Python",
+        "author": "Luciano Ramalho",
+        "year": 1995,
+        "status": "Missing"
+    },
+    {
+        "title": "Think Python",
+        "author": "Allen B. Downey",
+        "year": 1987,
+        "status": "Available"
+    },
+    {
+        "title": "Eloquent JavaScript",
+        "author": "Marijn Haverbeke",
+        "year": 1989,
+        "status": "Missing"
+    },
+    {
+        "title": "Grokking Algorithms",
+        "author": "Aditya Bhargava",
+        "year": 2007,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Programming Rust",
+        "author": "Jim Blandy, Jason Orendorff",
+        "year": 2003,
+        "status": "Missing"
+    },
+    {
+        "title": "Linux Pocket Guide",
+        "author": "Daniel J. Barrett",
+        "year": 2000,
+        "status": "Available"
+    },
+    {
+        "title": "Computer Organization and Design",
+        "author": "David A. Patterson, John L. Hennessy",
+        "year": 1982,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Software Engineering",
+        "author": "Ian Sommerville",
+        "year": 2018,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Cracking the Coding Interview",
+        "author": "Gayle Laakmann McDowell",
+        "year": 2013,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Data Structures and Algorithms in Java",
+        "author": "Michael T. Goodrich",
+        "year": 1990,
+        "status": "Available"
+    },
+    {
+        "title": "Spring in Action",
+        "author": "Craig Walls",
+        "year": 2012,
+        "status": "Available"
+    },
+    {
+        "title": "Pro Git",
+        "author": "Scott Chacon, Ben Straub",
+        "year": 2019,
+        "status": "Available"
+    },
+    {
+        "title": "Artificial Intelligence: A Modern Approach",
+        "author": "Stuart Russell, Peter Norvig",
+        "year": 1995,
+        "status": "Available"
+    },
+    {
+        "title": "Deep Learning",
+        "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+        "year": 2024,
+        "status": "Available"
+    },
+    {
+        "title": "Python Crash Course",
+        "author": "Eric Matthes",
+        "year": 2023,
+        "status": "Available"
+    },
+    {
+        "title": "The Art of Computer Programming",
+        "author": "Donald E. Knuth",
+        "year": 2002,
+        "status": "Available"
+    },
+    {
+        "title": "Code Complete",
+        "author": "Steve McConnell",
+        "year": 1984,
+        "status": "Available"
+    },
+    {
+        "title": "Algorithms Unlocked",
+        "author": "Thomas H. Cormen",
+        "year": 2009,
+        "status": "Lent Out"
+    },
+    {
+        "title": "The Mythical Man-Month",
+        "author": "Frederick P. Brooks Jr.",
+        "year": 2008,
+        "status": "Missing"
+    },
+    {
+        "title": "Structure and Interpretation of Computer Programs",
+        "author": "Harold Abelson, Gerald Jay Sussman",
+        "year": 2014,
+        "status": "Available"
+    },
+    {
+        "title": "Computer Networks",
+        "author": "Andrew S. Tanenbaum",
+        "year": 2024,
+        "status": "Missing"
+    },
+    {
+        "title": "Operating System Concepts",
+        "author": "Abraham Silberschatz",
+        "year": 2017,
+        "status": "Missing"
+    },
+    {
+        "title": "You Don't Know JS",
+        "author": "Kyle Simpson",
+        "year": 2002,
+        "status": "Available"
+    },
+    {
+        "title": "Refactoring",
+        "author": "Martin Fowler",
+        "year": 2002,
+        "status": "Available"
+    },
+    {
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "year": 1997,
+        "status": "Available"
+    },
+    {
+        "title": "Programming Pearls",
+        "author": "Jon Bentley",
+        "year": 2000,
+        "status": "Available"
+    },
+    {
+        "title": "The C Programming Language",
+        "author": "Brian W. Kernighan, Dennis M. Ritchie",
+        "year": 1980,
+        "status": "Missing"
+    },
+    {
+        "title": "JavaScript: The Good Parts",
+        "author": "Douglas Crockford",
+        "year": 1986,
+        "status": "Available"
+    },
+    {
+        "title": "Hands-On Machine Learning",
+        "author": "Aur\u00e9lien G\u00e9ron",
+        "year": 2000,
+        "status": "Available"
+    },
+    {
+        "title": "Learning Python",
+        "author": "Mark Lutz",
+        "year": 2002,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Fluent Python",
+        "author": "Luciano Ramalho",
+        "year": 1981,
+        "status": "Available"
+    },
+    {
+        "title": "Think Python",
+        "author": "Allen B. Downey",
+        "year": 2014,
+        "status": "Available"
+    },
+    {
+        "title": "Eloquent JavaScript",
+        "author": "Marijn Haverbeke",
+        "year": 1999,
+        "status": "Missing"
+    },
+    {
+        "title": "Grokking Algorithms",
+        "author": "Aditya Bhargava",
+        "year": 2000,
+        "status": "Missing"
+    },
+    {
+        "title": "Programming Rust",
+        "author": "Jim Blandy, Jason Orendorff",
+        "year": 1991,
+        "status": "Available"
+    },
+    {
+        "title": "Linux Pocket Guide",
+        "author": "Daniel J. Barrett",
+        "year": 2022,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Computer Organization and Design",
+        "author": "David A. Patterson, John L. Hennessy",
+        "year": 2000,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Software Engineering",
+        "author": "Ian Sommerville",
+        "year": 2000,
+        "status": "Missing"
+    },
+    {
+        "title": "Cracking the Coding Interview",
+        "author": "Gayle Laakmann McDowell",
+        "year": 2021,
+        "status": "Available"
+    },
+    {
+        "title": "Data Structures and Algorithms in Java",
+        "author": "Michael T. Goodrich",
+        "year": 2016,
+        "status": "Available"
+    },
+    {
+        "title": "Spring in Action",
+        "author": "Craig Walls",
+        "year": 2016,
+        "status": "Lent Out"
+    },
+    {
+        "title": "Pro Git",
+        "author": "Scott Chacon, Ben Straub",
+        "year": 1986,
+        "status": "Lent Out"
+    }
+]
