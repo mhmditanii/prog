@@ -34,8 +34,8 @@ def book_search(book_name):
     library_data = model.load_data()
     for book in library_data:
         if book_name.strip() == book["title"]:
-            return library_data, book
-    return library_data, None
+            return book
+    return None
 
 def book_list_search(typed):
     if not typed:
@@ -49,21 +49,22 @@ def book_list_search(typed):
     return found_books
 
 def book_edit_status(book_name, status_options, var):
-    library_data, found_book = book_search(book_name)
+    library_data = model.load_data()
     status = status_options[var.get()]
-    found_book["status"] = status
-    model.save_file(library_data)
+    for book in library_data:
+        if book["title"] == book_name:
+            book["status"] = status
+            model.save_file(library_data)
 
-
-def delete_book(book_name):
-    library_data, found_book = book_search(book_name)
-    if not found_book:
-        print(f"Book '{book_name}' was not found in the library!")
-        return
-    #library_data.remove(found_book)
-    found_book["status"] = "Deleted"
-    model.save_file(library_data)
-    print(f"Book '{book_name}' deleted successfully")
+def delete_book(book_title):
+    library_data = model.load_data() 
+    for book in library_data:
+        if book["title"] == book_title:
+            book["status"] = "Deleted"
+            model.save_file(library_data)
+            print(f"Book '{book_title}' deleted successfully")
+            return
+    print(f"Book '{book_title}' was not found in the library!")
 
 def book_collect_data(entries, window):
     book_info = []

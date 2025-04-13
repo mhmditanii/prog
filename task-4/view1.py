@@ -52,6 +52,7 @@ class App(tk.Tk):
         Entry(left_frame, textvariable = self.search_var).pack(pady = 5)
         self.search_listbox = tk.Listbox(left_frame, height=5)
         self.search_listbox.pack(fill=X, padx=6, pady=1)
+        self.search_listbox.bind("<Double-1>", self.open_search_details_window)
         
         self.generate_button = tk.Button(left_frame, text="Generate 1 Million Book Entries",)
         self.generate_button.pack(pady=5)
@@ -138,14 +139,27 @@ class App(tk.Tk):
             return
         index = selection[0]
         book = self.book_titles[index]
-
         details_window = tk.Toplevel(self)
         details_window.title(f"Details: {book['title']}")
-
         tk.Label(details_window, text=f"Book Name: {book['title']}").pack(padx=10, pady=5)
         tk.Label(details_window, text=f"Author: {book['author']}").pack(padx=10, pady=5)
         tk.Label(details_window, text=f"Publication Year: {book['year']}").pack(padx=10, pady=5)
         tk.Label(details_window, text=f"Status: {book['status']}").pack(padx=10, pady=5)
+
+    def open_search_details_window(self, event):
+        selection = self.search_listbox.curselection()
+        if not selection:
+            return
+        index = selection[0]
+        found_books = controller.book_list_search(self.search_var.get())
+        book = found_books[index]
+        details_window = tk.Toplevel(self)
+        details_window.title(f"Details: {book['title']}")
+        tk.Label(details_window, text=f"Book Name: {book['title']}").pack(padx=10, pady=5)
+        tk.Label(details_window, text=f"Author: {book['author']}").pack(padx=10, pady=5)
+        tk.Label(details_window, text=f"Publication Year: {book['year']}").pack(padx=10, pady=5)
+        tk.Label(details_window, text=f"Status: {book['status']}").pack(padx=10, pady=5)
+
 
     def update_search_results(self, found_books):
         self.search_listbox.delete(0, tk.END)

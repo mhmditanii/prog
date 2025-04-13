@@ -3,7 +3,7 @@
         "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
         "author": "Robert C. Martin",
         "year": 2008,
-        "status": "Missing"
+        "status": "Deleted"
     },
     {
         "title": "The Pragmatic Programmer: Your Journey to Mastery",
@@ -27,7 +27,7 @@
         "title": "Code Complete",
         "author": "Steve McConnell",
         "year": 2020,
-        "status": "Available"
+        "status": "Deleted"
     },
     {
         "title": "Algorithms Unlocked",
@@ -51,7 +51,7 @@
         "title": "Computer Networks",
         "author": "Andrew S. Tanenbaum",
         "year": 2006,
-        "status": "Missing"
+        "status": "Lent Out"
     },
     {
         "title": "Operating System Concepts",
@@ -93,7 +93,7 @@
         "title": "JavaScript: The Good Parts",
         "author": "Douglas Crockford",
         "year": 2012,
-        "status": "Missing"
+        "status": "Deleted"
     },
     {
         "title": "Hands-On Machine Learning",
@@ -369,7 +369,7 @@
         "title": "Deep Learning",
         "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
         "year": 2007,
-        "status": "Available"
+        "status": "Missing"
     },
     {
         "title": "Python Crash Course",
@@ -549,7 +549,7 @@
         "title": "Deep Learning",
         "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
         "year": 2003,
-        "status": "Available"
+        "status": "Missing"
     },
     {
         "title": "Python Crash Course",
@@ -729,7 +729,7 @@
         "title": "Deep Learning",
         "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
         "year": 2024,
-        "status": "Available"
+        "status": "Missing"
     },
     {
         "title": "Python Crash Course",
@@ -898,5 +898,11 @@
         "author": "Scott Chacon, Ben Straub",
         "year": 1986,
         "status": "Lent Out"
+    },
+    {
+        "title": "yearning",
+        "author": "ahlan",
+        "year": "1920",
+        "status": "Available"
     }
 ]
