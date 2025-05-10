@@ -1,0 +1,20 @@
+import dearpygui.dearpygui as dpg
+
+dpg.create_context()
+
+def on_submit():
+    user_input = dpg.get_value("input_field")
+    dpg.set_value("output_box", f"Result: {user_input[::-1]}")  # simple reversed output
+
+with dpg.window(tag="Primary Window", label="Simple UI", width=500, height=300):
+
+
+
+
+dpg.create_viewport(title='Simple Input/Output App', width=800, height=600)
+dpg.setup_dearpygui()
+dpg.show_viewport()
+dpg.set_primary_window("Primary Window", True)
+dpg.start_dearpygui()
+dpg.destroy_context()
+
