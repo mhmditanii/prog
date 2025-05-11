@@ -1,7 +1,12 @@
+#asser.hussein@stud.th-deg.de
+#robin.christ@stud.th-deg.de
+#mohammad.itani@stud.th-deg.de
 import dearpygui.dearpygui as dpg
 import threading
 import data_req
 import re
+
+scraped_headlines = []
 
 def is_valid_url(url):
     pattern = r"^https://[^\s/]+\.com(?:/[^\s]*)?$"
@@ -28,22 +33,21 @@ def search_callback():
     dpg.set_value("result_box", "Scraping, please wait...")
 
     def run_scraper():
+        global scraped_headlines
         try:
             data_req.open_website()
-            headlines = None
-
             if dpg.get_value("search_terms_checkbox"):
                 terms = dpg.get_value("search_terms_input")
                 terms = [term.strip() for term in terms.split(",")]
-                headlines = data_req.search_website_for_keywords(terms)
+                scraped_headlines = data_req.search_website_for_keywords(terms)
             else:
-                headlines = data_req.scrape_headlines()
-                data_req.save_results_json(headlines)
+                scraped_headlines = data_req.scrape_headlines()
+                data_req.save_results_json(scraped_headlines)
 
-            if not headlines:
+            if not scraped_headlines:
                 dpg.set_value("result_box", "No headlines found.")
             else:
-                result_text = "\n\n".join(f"{i+1}. {headline}" for i, headline in enumerate(headlines))
+                result_text = "\n\n".join(f"{i+1}. {headline}" for i, headline in enumerate(scraped_headlines))
                 dpg.set_value("result_box", result_text)
         except Exception as e:
             dpg.set_value("result_box", f"Error: {e}")
@@ -64,15 +68,22 @@ with dpg.theme(tag="valid_theme"):
         dpg.add_theme_color(dpg.mvThemeCol_Text, [0, 255, 0, 255])
 
 with dpg.window(label="Main Window", tag="MainWindow", no_title_bar=True, no_resize=True, no_move=True, width=1280, height=720):
+    
+    with dpg.menu_bar():
+        with dpg.menu(label="File"):
+            dpg.add_menu_item(label="Export results as JSON", callback=lambda: data_req.save_results_json(scraped_headlines) if scraped_headlines else None)
+            dpg.add_menu_item(label="Export results as CSV", callback=lambda: data_req.save_results_csv(scraped_headlines) if scraped_headlines else None)
+
     dpg.add_spacer(height=20)
     dpg.add_text("Scrape Headlines from a URL")
     dpg.add_input_text(label="URL", tag="url_input", hint="ex. https://example.com", width=600, callback=validate_url)
     dpg.add_checkbox(label="Add Search Terms", tag="search_terms_checkbox", callback=toggle_search_terms)
-    dpg.add_input_text(label="Search Terms", hint = "seperate terms by','", tag="search_terms_input", width=600, show=False)
+    dpg.add_input_text(label="Search Terms", hint="separate terms by ','", tag="search_terms_input", width=600, show=False)
     dpg.add_button(label="Search", tag="search_button", callback=search_callback, width=150, enabled=False)
     dpg.add_spacer(height=20)
     dpg.add_text("Results")
     dpg.add_input_text(tag="result_box", multiline=True, readonly=True, width=1000, height=400)
+    dpg.add_spacer(height=10)
 
 dpg.set_primary_window("MainWindow", True)
 dpg.show_viewport()

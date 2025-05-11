@@ -1,3 +1,6 @@
+#asser.hussein@stud.th-deg.de
+#robin.christ@stud.th-deg.de
+#mohammad.itani@stud.th-deg.de
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -11,7 +14,7 @@ import sys
 url = ""
 json_file_name = "news_scrapped.json"
 csv_file_name = "news_scrapped_csv.csv" 
-driver = None  # Global driver
+driver = None
 
 def open_website():
     global url
@@ -102,7 +105,6 @@ def save_results_csv(headlines):
             writer.writerow(["Headline"])
             for headline in headlines:
                 writer.writerow([headline])
-        print(f"Exported {len(headlines)} headlines to {filename}")
     except IOError as e:
         print("I/O error({0}): {1}".format(e.errno, e.strerror))
     except Exception as e:
