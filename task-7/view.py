@@ -35,7 +35,7 @@ def search_callback():
             if dpg.get_value("search_terms_checkbox"):
                 terms = dpg.get_value("search_terms_input")
                 terms = [term.strip() for term in terms.split(",")]
-                data_req.search_website_for_keywords(terms)
+                headlines = data_req.search_website_for_keywords(terms)
             else:
                 headlines = data_req.scrape_headlines()
                 data_req.save_results_json(headlines)
@@ -43,7 +43,7 @@ def search_callback():
             if not headlines:
                 dpg.set_value("result_box", "No headlines found.")
             else:
-                result_text = "\n\n".join(headlines)
+                result_text = "\n\n".join(f"{i+1}. {headline}" for i, headline in enumerate(headlines))
                 dpg.set_value("result_box", result_text)
         except Exception as e:
             dpg.set_value("result_box", f"Error: {e}")

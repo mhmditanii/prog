@@ -5,16 +5,17 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import json
+import csv
 import sys
 
 url = ""
 json_file_name = "news_scrapped.json"
+csv_file_name = "news_scrapped_csv.csv" 
 driver = None  # Global driver
 
 def open_website():
     global url
     global driver
-    print(url)
     options = Options()
     options.add_argument("--headless")
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -94,4 +95,15 @@ def save_results_json(data):
     except:
         print("Unexpected error:", sys.exc_info()[0])
 
-
+def save_results_csv(headlines):
+    try:
+        with open(csv_file_name, mode='w', newline='', encoding='utf-8') as csv_file:
+            writer = csv.writer(csv_file, quoting=csv.QUOTE_ALL)
+            writer.writerow(["Headline"])
+            for headline in headlines:
+                writer.writerow([headline])
+        print(f"Exported {len(headlines)} headlines to {filename}")
+    except IOError as e:
+        print("I/O error({0}): {1}".format(e.errno, e.strerror))
+    except Exception as e:
+        print("Unexpected error:", e)
